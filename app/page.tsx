@@ -344,8 +344,8 @@ export default function LandingPage() {
         {/* Stats row */}
         <div className="mt-16 flex items-center gap-10 flex-wrap justify-center">
           {[
-            { label: "Training samples",  value: "500K+" },
-            { label: "Model accuracy",    value: "~93%"  },
+            { label: "Training samples",  value: "108K+" },
+            { label: "Model accuracy",    value: "99.77%"  },
             { label: "Input modes",       value: "3"     },
           ].map((s) => (
             <div key={s.label} className="text-center">
